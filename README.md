@@ -1,4 +1,4 @@
-# Project-Protofolio-
+Project Protofolio 
 # Scale-Model Suspension Bridge Evaluation
 
 ## Aim
@@ -83,7 +83,7 @@ The structural efficiency (`η`) of the bridge is calculated using the dimension
 
 - **Iteration 3 Efficiency:**  
   `9100 / 140 = 65.0`
-  # Closed-Loop Thermal Management System Evaluation
+# Closed-Loop Thermal Management System Evaluation
 
 ## Aim
 To design, construct, and analyze a functional closed-loop thermal management system simulating an automotive internal combustion engine cooling loop to evaluate heat dissipation efficiency under varying fluid flow rates.
@@ -181,9 +181,7 @@ The heat rejection rate of the radiator system is calculated using:
 
 ```math
 P = \dot{m} \times C_p \times \Delta T
-
-
-# Miniature Horizontal-Axis Wind Turbine Blade Evaluation
+  # Miniature Horizontal-Axis Wind Turbine Blade Evaluation
 
 ## Aim
 To design, fabricate, and test a miniature horizontal-axis wind turbine (HAWT) blade assembly to evaluate the impact of blade pitch angles on aerodynamic efficiency and electrical power generation.
