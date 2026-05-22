@@ -1,11 +1,11 @@
 # Project 1: Scale-Model Suspension Bridge Evaluation
 
-## 🎯 Aim
+## Aim
 To design, construct, and evaluate a scale-model suspension bridge optimized to maximize structural efficiency (load-to-weight ratio) by effectively distributing tensile and compressive forces.
 
 ---
 
-## 🛠 Materials Required
+## Materials Required
 - **Structural Elements:** Balsa wood strips (3 mm x 3 mm for trusses and towers), high-density cardboard (for the deck base).
 - **Cables & Suspenders:** High-tensile braided nylon string or thin steel wire.
 - **Anchorage & Fixtures:** Miniature eye-hooks, heavy wooden baseboard (for anchoring).
@@ -14,7 +14,7 @@ To design, construct, and evaluate a scale-model suspension bridge optimized to 
 
 ---
 
-## ⚙️ Experiment Steps
+## Experiment Steps
 1. **Design & Layout:** Sketch a 2D blueprint of the suspension bridge. Define span length (L), tower height (H), and sag of the main cable (d).
 2. **Tower & Deck Construction:** Build two identical towers using balsa wood with triangular truss design. Cut the deck to target span length.
 3. **Cable Stringing:** Fix towers to baseboard. Run main suspension cables over towers and secure to anchorages. Attach vertical suspenders from cable to deck at equal intervals.
@@ -24,7 +24,7 @@ To design, construct, and evaluate a scale-model suspension bridge optimized to 
 
 ---
 
-## 📊 Experimental Data
+## Experimental Data
 
 | Design Iteration                  | Bridge Mass (M_bridge) | Max Load Supported (M_load) | Primary Failure Point            |
 |-----------------------------------|-------------------------|------------------------------|----------------------------------|
@@ -34,7 +34,7 @@ To design, construct, and evaluate a scale-model suspension bridge optimized to 
 
 ---
 
-## 📈 Analysis
+## Analysis
 
 Structural efficiency (n) is calculated using the load-to-weight ratio:
 
@@ -48,18 +48,18 @@ n = \frac{M_{load}}{M_{bridge}}
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 - Reinforcing towers with trusses improved stability and efficiency.
 - Optimizing sag ratio and anchorage design yielded the highest efficiency (65.0).
 - The primary limiting factor shifted from tower buckling → cable slippage → suspender snapping, showing progressive improvement in design iterations.
-- # Project 2: Closed-Loop Thermal Management System Evaluation
+# Project 2: Closed-Loop Thermal Management System Evaluation
 
-## 🎯 Aim
+##  Aim
 To design, construct, and analyze a functional closed-loop thermal management system simulating an automotive internal combustion engine cooling loop, and evaluate heat dissipation efficiency under varying fluid flow rates.
 
 ---
 
-## 🛠 Materials Required
+##  Materials Required
 - **Heat Source:** 50 W ceramic heating element or adjustable immersion heater (simulating engine block)  
 - **Heat Exchanger (Radiator):** Copper/aluminum multi-channeled liquid-to-air radiator core with 12V DC cooling fan  
 - **Fluid Circulation:** 12V DC brushless submersible water pump (adjustable flow rate)  
@@ -69,7 +69,7 @@ To design, construct, and analyze a functional closed-loop thermal management sy
 
 ---
 
-## ⚙️ Experiment Procedure
+##  Experiment Procedure
 1. **System Assembly:**  
    - Mount heat source inside insulated aluminum reservoir ("engine block").  
    - Connect reservoir outlet → radiator inlet via silicone tubing.  
@@ -101,7 +101,7 @@ To design, construct, and analyze a functional closed-loop thermal management sy
 
 ---
 
-## 📊 Experimental Data
+##  Experimental Data
 Ambient air temperature: **25℃**
 
 | Flow Rate Setting | Volumetric Flow Rate (Q) | Radiator Inlet Temp (Tin) | Radiator Outlet Temp (Tout) | Temperature Drop (ΔT) |
@@ -112,7 +112,7 @@ Ambient air temperature: **25℃**
 
 ---
 
-## 🔬 Analysis
+##  Analysis
 The radiator heat rejection rate **P** is calculated using:
 
 \[
@@ -124,7 +124,7 @@ Where:
 - \(C_p\) = specific heat capacity of coolant (~3600 J/kg·℃)  
 - \(\Delta T\) = temperature differential (Tin - Tout)  
 
-### ✅ Calculated Heat Rejection
+### Calculated Heat Rejection
 - **Low Flow (1.0 L/min = 0.0173 kg/s):**  
   \(0.0173 \times 3600 \times 14.3 = 890.6 \, W\)  
 
@@ -136,18 +136,19 @@ Where:
 
 ---
 
-## 📌 Conclusion
+##  Conclusion
 - Increasing flow rate reduces the **temperature drop (ΔT)** across the radiator.  
 - However, higher flow rates increase the **overall heat rejection capacity (P)**.  
 - The system demonstrates effective thermal management, with optimal balance between flow rate and cooling efficiency.
-- # Project 3: Miniature Horizontal-Axis Wind Turbine Blade Evaluation
 
-## 🎯 Aim
+# Project 3: Miniature Horizontal-Axis Wind Turbine Blade Evaluation
+
+## Aim
 To design, fabricate, and test a miniature horizontal-axis wind turbine (HAWT) blade assembly to evaluate the impact of blade pitch angles on aerodynamic efficiency and electrical power generation.
 
 ---
 
-## 🛠 Materials Required
+## Materials Required
 - **Rotor Blades:** 3D-printed or hand-carved balsa wood blades (NACA 4412 airfoil, 15 cm length)
 - **Generator:** Low-friction, high-efficiency 3V–6V DC hobby motor
 - **Hub Assembly:** Custom rotor hub with variable pitch angle locking screws
@@ -157,7 +158,7 @@ To design, fabricate, and test a miniature horizontal-axis wind turbine (HAWT) b
 
 ---
 
-## ⚙️ Experiment Procedure
+## Experiment Procedure
 1. **Blade Configurations:** Prepare three sets of blades with pitch angles of 0°, 15°, and 30°.
 2. **Tower Setup:** Mount generator and hub assembly with blades at chosen pitch.
 3. **Circuit Assembly:** Connect generator output across 100 Ω resistor, measure voltage with multimeter.
@@ -167,7 +168,7 @@ To design, fabricate, and test a miniature horizontal-axis wind turbine (HAWT) b
 
 ---
 
-## 📊 Experimental Data
+## Experimental Data
 
 | Blade Pitch Angle | Voltage Output | Circuit Resistance | Current | Power Output |
 |-------------------|----------------|--------------------|---------|--------------|
@@ -177,7 +178,7 @@ To design, fabricate, and test a miniature horizontal-axis wind turbine (HAWT) b
 
 ---
 
-## 📐 Analysis
+## Analysis
 The electrical power output is calculated using:
 
 \[
@@ -192,14 +193,14 @@ P = \frac{V^2}{R}
 
 ---
 
-## 🚀 Key Takeaways
+## Key Takeaways
 - Blade pitch angle strongly influences turbine efficiency.  
 - Too low (0°) or too high (30°) pitch reduces performance.  
 - Moderate pitch (15°) balances aerodynamic lift and drag, maximizing power output.  
 
 ---
 
-## 📌 Future Improvements
+## Future Improvements
 - Test at varying wind speeds (3–10 m/s).  
 - Experiment with different airfoil profiles.  
 - Scale up blade length for higher energy capture.
